@@ -2,6 +2,6 @@
 Quick gamemode commands for Nukkit
 
 # Commands:
-/gmc - Creative Mode
-/gms - Survival Mode
+/gmc - Creative Mode\n
+/gms - Survival Mode\n
 /gmspc - Spectator Mode
