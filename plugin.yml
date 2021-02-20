@@ -1,0 +1,25 @@
+name: EasyGamemode
+version: 1.0.0
+author: VernoxMC
+api: ["1.0.0"]
+main: src.VernoxMC.EasyGamemode.Main
+commands:
+  gmc:
+    description: Creative Mode
+    usage: /gmc
+    permission: gmc.command
+  gms:
+    description: Survival Mode
+    usage: /gms
+    permission: gms.command
+  gmspc:
+    description: Spectator Mode
+    usage: /gmspc
+    permission: gmspc.command
+permissions:
+  gmc.command:
+    default: op
+  gms.command:
+    default: op
+  gmspc.command:
+    default: op
